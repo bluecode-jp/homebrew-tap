@@ -4,7 +4,7 @@ cask "simulatorcameraex" do
 
   url "https://github.com/bluecode-jp/homebrew-tap/releases/download/simulatorcameraex-#{version}/SimulatorCameraEx-#{version}.dmg"
   name "SimulatorCameraEx"
-  desc "Camera feed (QR, barcodes, images, video, Mac camera) for iOS Simulator apps"
+  desc "Virtual camera feed of QR codes, barcodes, images and video for simulator apps"
   homepage "https://github.com/bluecode-jp/homebrew-tap"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "simulatorcameraex" do
     strategy :github_releases
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "SimulatorCameraEx.app"
   binary "#{appdir}/SimulatorCameraEx.app/Contents/MacOS/simcamctl"
