@@ -4,6 +4,8 @@ BLUECODE,INC. が配布している Mac アプリの [Homebrew](https://brew.sh)
 
 ## SimulatorCameraEx
 
+[bluecode-jp/SimulatorCameraEx](https://github.com/bluecode-jp/SimulatorCameraEx)
+
 iOS シミュレータのアプリに「カメラ」を渡す Mac アプリです。QR コード・Code 128・EAN-13・画像・動画・Mac のカメラを、アプリのコードを変えずにカメラ映像として使えます。Android エミュレータでも使えます。
 
 ### インストール
@@ -15,6 +17,7 @@ brew install --cask bluecode-jp/tap/simulatorcameraex
 - `/Applications/SimulatorCameraEx.app` と、コマンドラインツール `simcamctl` が入ります。
 - macOS 14 以降。Apple silicon・Intel のどちらでも動きます。
 - アプリは BLUECODE,INC. の Developer ID で署名し、Apple の公証を受けています。
+- 配布ファイル（DMG）は [SimulatorCameraEx の Releases](https://github.com/bluecode-jp/SimulatorCameraEx/releases) から取得します。この tap には Cask だけを置いています。
 
 ### 更新
 

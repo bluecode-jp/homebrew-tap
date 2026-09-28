@@ -2,15 +2,14 @@ cask "simulatorcameraex" do
   version "1.0.1"
   sha256 "23a2d52dc7c0d691e17b880ec0df444f4e9c90f35159195b2928cb068dc13030"
 
-  url "https://github.com/bluecode-jp/homebrew-tap/releases/download/simulatorcameraex-#{version}/SimulatorCameraEx-#{version}.dmg"
+  url "https://github.com/bluecode-jp/SimulatorCameraEx/releases/download/v#{version}/SimulatorCameraEx-#{version}.dmg"
   name "SimulatorCameraEx"
   desc "Virtual camera feed of QR codes, barcodes, images and video for simulator apps"
-  homepage "https://github.com/bluecode-jp/homebrew-tap"
+  homepage "https://github.com/bluecode-jp/SimulatorCameraEx"
 
   livecheck do
     url :url
-    regex(/^simulatorcameraex[._-]v?(\d+(?:\.\d+)+)$/i)
-    strategy :github_releases
+    strategy :github_latest
   end
 
   depends_on macos: :sonoma
