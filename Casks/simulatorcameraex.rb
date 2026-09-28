@@ -1,6 +1,6 @@
 cask "simulatorcameraex" do
-  version "1.0.0"
-  sha256 "14e67313f2361c02d8874a94e7383c4971858937f26c5e3a7a22e9b6daa11b7d"
+  version "1.0.1"
+  sha256 "23a2d52dc7c0d691e17b880ec0df444f4e9c90f35159195b2928cb068dc13030"
 
   url "https://github.com/bluecode-jp/homebrew-tap/releases/download/simulatorcameraex-#{version}/SimulatorCameraEx-#{version}.dmg"
   name "SimulatorCameraEx"
