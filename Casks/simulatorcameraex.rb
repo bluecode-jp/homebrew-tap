@@ -1,6 +1,6 @@
 cask "simulatorcameraex" do
-  version "1.0.1"
-  sha256 "23a2d52dc7c0d691e17b880ec0df444f4e9c90f35159195b2928cb068dc13030"
+  version "1.0.2"
+  sha256 "81533c77bbed415d5d94ea1b98c4db9579ba904480166d436ae53b304d6c74ba"
 
   url "https://github.com/bluecode-jp/SimulatorCameraEx/releases/download/v#{version}/SimulatorCameraEx-#{version}.dmg"
   name "SimulatorCameraEx"
